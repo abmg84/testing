@@ -1,13 +1,66 @@
 body{
-	background: #ccc;
+	background: $color-sec;
 }
 
 .container{
-	background: #fff;
+	background: $color-base;
 
+	//HEADER
 	.header{
 		h1{
 			display: none;
+		}
+	}
+
+	.aside{
+		//background: #E9E9E9;
+	}
+
+	//MENU NAV
+	.menu{
+		li{
+			background: #F0D4D4;
+			a{
+				color: $color-font-base;
+				font-weight: bold;
+				&:hover{background: #E7C1C1}
+			}
+		}
+	}
+
+	//CENTRAL CONTENTS
+	.content{
+		min-height: 420px;
+		.block{
+			padding-left: 0;
+			.offer{
+				height: 120px;
+				&.of1{background: url(../images/10001.jpg) no-repeat;}
+				&.of2{background: url(../images/10002.jpg) no-repeat;}
+				
+			}
+		}	
+	}
+
+	//FOOTER
+	.footer{
+		color: $color-base;
+		font-size: $font-small;
+		//font-weight: bold;
+		padding: 10px 10px 10px 0;
+		background: #929292;
+		text-align: center;
+		.links_footer{
+			@include clearfix;
+			list-style-type: none;
+			text-decoration: underline;
+			li{
+				display: inline;
+				margin-right: 20px;
+				a{
+					color: $color-base;
+				}
+			}
 		}
 	}
 }
