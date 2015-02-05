@@ -1,0 +1,35 @@
+app/bootstrap.php.cache
+app/bootstrap_cache.php.cache
+app/config/parameters.ini
+app/config/parameters.yml
+app/cache/*
+app/logs/*
+vendor/*
+web/bundles/*
+web/css/*
+web/js/*
+web/uploads/*
+
+# -- Editores -----------------------------------------
+# vim
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# sublimetext
+/*.sublime-project
+*.sublime-workspace
+
+
+ -- Sistemas Operativos ------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# grunt
+node_modules
+.npm-debug.log
+tmp
