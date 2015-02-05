@@ -1,3 +1,14 @@
-.header{
-	color: red;
+body{
+	background: #ccc;
 }
+
+.container{
+	background: #fff;
+
+	.header{
+		h1{
+			display: none;
+		}
+	}
+}
+

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,OAAO,CACN,KAAK,CAAE,GAAG",
-"sources": ["../styles/_general.scss"],
+"mappings": "AAAA,0BAA2B,CACzB,UAAW,CACT,KAAK,CAAE,KAAK,ECFhB,IAAI,CACH,UAAU,CAAE,IAAI,CAGjB,UAAU,CACT,UAAU,CAAE,IAAI,CAGf,qBAAE,CACD,OAAO,CAAE,IAAI",
+"sources": ["../styles/_base.scss","../styles/_general.scss"],
 "names": [],
 "file": "agora.css"
 }
